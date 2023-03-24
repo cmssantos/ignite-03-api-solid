@@ -1,0 +1,24 @@
+{
+  "name": "ignite-03-api-solid",
+  "version": "1.0.0",
+  "description": "GymPass style app.",
+  "main": "index.js",
+  "keywords": ["API NodeJS", "SOLID", "Rest"],
+  "author": "Cleudice Marques Santos",
+  "license": "MIT",
+  "type": "module",
+  "scripts": {
+    "start:dev": "tsx watch src/server.ts",
+    "start": "node build/server.js",
+    "build": "tsup src --out-dir build"
+  },
+  "dependencies": {
+    "fastify": "^4.15.0"
+  },
+  "devDependencies": {
+    "@types/node": "^18.15.7",
+    "tsup": "^6.7.0",
+    "tsx": "^3.12.6",
+    "typescript": "^5.0.2"
+  }
+}
