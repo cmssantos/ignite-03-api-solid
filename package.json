@@ -3,7 +3,11 @@
   "version": "1.0.0",
   "description": "GymPass style app.",
   "main": "index.js",
-  "keywords": ["API NodeJS", "SOLID", "Rest"],
+  "keywords": [
+    "API NodeJS",
+    "SOLID",
+    "Rest"
+  ],
   "author": "Cleudice Marques Santos",
   "license": "MIT",
   "type": "module",
@@ -13,7 +17,9 @@
     "build": "tsup src --out-dir build"
   },
   "dependencies": {
-    "fastify": "4.15.0"
+    "dotenv": "16.0.3",
+    "fastify": "4.15.0",
+    "zod": "3.21.4"
   },
   "devDependencies": {
     "@types/node": "18.15.7",
