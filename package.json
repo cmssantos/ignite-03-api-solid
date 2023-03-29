@@ -14,7 +14,9 @@
   "scripts": {
     "start:dev": "tsx watch src/server.ts",
     "start": "node build/server.js",
-    "build": "tsup src --out-dir build"
+    "build": "tsup src --out-dir build",
+    "migrate:dev": "npx prisma migrate dev",
+    "studio": "npx prisma studio"
   },
   "dependencies": {
     "@prisma/client": "4.12.0",
