@@ -24,6 +24,7 @@
   },
   "dependencies": {
     "bcryptjs": "2.4.3",
+    "dayjs": "1.11.7",
     "dotenv": "16.0.3",
     "fastify": "4.15.0",
     "prisma": "4.12.0",
