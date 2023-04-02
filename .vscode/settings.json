@@ -9,5 +9,8 @@
         "node_modules": true,
         "build": true
     },
-    "explorerExclude.backup": {}
+    "explorerExclude.backup": {},
+    "cSpell.words": [
+        "camelcase"
+    ]
 }
